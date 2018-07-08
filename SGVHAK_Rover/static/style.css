@@ -21,6 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+
 .flash {
   background: gray;
   color: white;
@@ -37,15 +38,18 @@ SOFTWARE.
 }
 /* Chassis Configuration */
 .container .row {
+	margin-top: 5%;
 	margin-bottom: 0.3rem;
 }
 canvas {
 	display: block;
-	margin-left: auto;
+	margin-left: -20px;
 	margin-right: auto;
 }
+
 p {
-	margin:0;
+	margin: 0;
+
 }
 .sub-head {
 	font-weight: 700;
@@ -55,8 +59,15 @@ p {
 /* TODO: adjust canvas for devices between 501px and 700 ish px */
 /* Small Devices */
 
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
 	canvas {
 		margin-left: -20px;
 	}
 }
+
+@media only screen and (min-width: 601px) {
+	.container {
+		padding-top: 5%;
+	}
+}
+*/
